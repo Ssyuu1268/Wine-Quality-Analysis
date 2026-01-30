@@ -42,15 +42,19 @@ This project investigates **wine quality classification** using physicochemical 
 - Red and white wines show **different feature–quality relationships**, supporting the decision to model them separately.
 
 ## Deliverables
-- `Wine Quality Analysis.pdf` — full report (methods, results, discussion)
+- Full report (PDF): `Wine Quality Analysis.pdf` (in this repo)
 
 ## How to view the report
-- Open `Wine Quality Analysis.pdf` directly in GitHub (if preview is available), or click **Download** to view locally.
-- Tip: if GitHub preview fails, rename the file to remove spaces (e.g., `wine-quality-analysis.pdf`) and re-upload.
+GitHub may not always render PDFs in-browser. If the preview fails:
+1. Click `Wine Quality Analysis.pdf`
+2. Click **Download** (or **View raw**)
+3. Open locally with a PDF viewer (Preview / Adobe Reader)
 
-## Repository Contents
-- `README.md` — project summary
-- `Wine Quality Analysis.pdf` — report (primary deliverable)
+## Use cases (PM / analytics-oriented)
+- **Quality control prioritization:** identify key physicochemical drivers of quality to guide QC checkpoints and corrective actions.
+- **Product segmentation:** model red and white wines separately to support differentiated quality standards and operational thresholds.
+- **Explainable decision support:** use CART for transparent rules that stakeholders can interpret and validate.
+- **Performance benchmarking:** compare interpretable vs higher-capacity models (CART vs Random Forest) to balance explainability and predictive strength.
 
 ## Author
 Shu-Yu Lin
